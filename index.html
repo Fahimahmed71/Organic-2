@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwsome -->
+    <script src="https://kit.fontawesome.com/28ecceccdf.js" crossorigin="anonymous"></script>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="tailwind.css">
+    <title>Organic_2</title>
+</head>
+
+<body>
+    <div class="bg-[#477018] text-white h-7 font-normal text-base px-10" id="bar_top_anime">
+        Welcome To Our
+        Organsio Store.</div>
+
+    <!-- header -->
+    <header>
+
+        <!-- Nav -->
+        <nav class="flex justify-between mt-3 px-12 shadow-2xl">
+            <div class="logo"><img src="./img/Organic logo.png" alt=""></div>
+
+            <ul class="flex gap-10">
+                <li class="hover:text-green-600"><a class="active_nav" href="#home">Home</a></li>
+                <li class="hover:text-green-600"><a href="#accessories">Accessories</a></li>
+                <li class="hover:text-green-600"><a href="#category">Category</a></li>
+                <li class="hover:text-green-600"><a href="#shop">Shop</a></li>
+                <li class="hover:text-green-600"><a href="#about">About Us</a></li>
+                <li class="hover:text-green-600"><a href="#faq">Faqs</a></li>
+            </ul>
+            <div class="flex gap-5 items-center">
+                <i class="fa-solid fa-bag-shopping text-2xl text-zinc-800 relative">
+                    <span class="cart_item absolute text-xs text-red-500 left-6">0</span>
+                </i>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
+        </nav>
+
+        <main class="container mx-auto my-20">
+            <!-- section_1 -->
+            <section class="flex gap-20">
+                <div class="main_img">
+                    <img src="./img/fruits_3.png" alt="" width="460" id="active">
+                </div>
+
+                <div class="img_list w-40">
+                    <img class="cursor-pointer" src="./img/fruits_3.png" alt="" id="active">
+                    <img class="cursor-pointer" src="./img/fruits_5.png" alt="">
+                    <img class="cursor-pointer" src="./img/fruits_7.png" alt="">
+                </div>
+
+                <div>
+                    <h1 class="font-semibold text-2xl text-zinc-700 mb-3">Organic Fruits Tenders</h1>
+                    <div class="flex gap-5">
+                        <div>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                        </div>
+                        <h6 class="text-base font-normal text-slate-700">10 Reviews</h6>
+                        <h6 class="text-gray-600 font-normal text-base"><span class="text-gray-700 font-semibold">Brand:
+                            </span>Organic</h6>
+                    </div>
+
+                    <h1 class="price_item font-semibold text-2xl text-orange-500 mt-3">$00.00</h1>
+
+                    <h6 class="w-96 text-base text-gray-600 font-normal mt-5">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit,
+                        sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </h6>
+
+                    <div class="flex gap-7 items-center">
+                        <div class="flex gap-5 items-center border-2 border-gray-500 mt-5 w-40 px-5 py-3 rounded-lg">
+                            <i class="fa-solid fa-plus cursor-pointer text-zinc-500 hover:text-orange-500"></i>
+                            <div class="width_kg text-xl font-semibold text-zinc-700">0 kg</div>
+                            <i class="fa-solid fa-minus cursor-pointer text-zinc-500 hover:text-orange-500"></i>
+                        </div>
+
+                        <button
+                            class="flex items-center gap-5 bg-orange-500 px-8 py-3 mt-5 rounded-lg hover:animate-pulse">
+                            <i class="fa-solid fa-cart-shopping text-white text-xl"></i>
+                            <h1 class="text-white text-xl">Add to cart</h1>
+                        </button>
+                    </div>
+
+                    <button class="buy bg-green-800 hover:bg-orange-500 rounded-3xl px-40 py-4 mt-5">
+                        <h1 class=" text-xl font-semibold text-white">Buy Now</h1>
+                    </button>
+
+                    <div class="flex gap-5">
+                        <button class="flex mt-5 items-center gap-2 border-2 border-gray-500 rounded-lg px-5 py-3">
+                            <i class="fa-solid fa-heart text-gray-600"></i>
+                            <h6 class="text-gray-600 text-base font-normal">Add to wishlist</h6>
+                        </button>
+                        <button class="flex mt-5 items-center gap-2 border-2 border-gray-500 rounded-lg px-5 py-3">
+                            <i class="fa-solid fa-code-compare text-gray-600"></i>
+                            <h6 class="text-gray-600 text-base font-normal">Add to Compare</h6>
+                        </button>
+                    </div>
+
+                    <h1 class="text-base font-normal mt-4 text-[#676767]"><span
+                            class="font-semibold text-[#282828]">Category: </span>
+                        Organic</h1>
+
+                    <h1 class="text-base font-normal mt-4 text-[#676767]"><span
+                            class="font-semibold text-[#282828]">Tags: </span>
+                        Food,organic,vegetables,fresh</h1>
+
+                    <div class="flex gap-5 items-center mt-3">
+                        <h1 class="text-base font-semibold text-[#282828] ">Share: </h1>
+                        <div class="text-3xl flex gap-5">
+                            <i class="fa-brands fa-facebook-square"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-solid fa-basketball"></i>
+                        </div>
+                    </div>
+
+                    <h1 class="mt-7 font-semibold text-xl text-[#282828]">Sold by: WPDISDB</h1>
+
+                    <ul class="list-disc mt-5 text-[#676767]">
+                        <li>100% Natural</li>
+                        <li>Increases resistance</li>
+                        <li>No growth hormones are used</li>
+                        <li>No artificial Chemicals</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Model -->
+            <section
+                class="model absolute top-1/2 left-1/2 bg-teal-800 w-80 h-80 rounded-lg -translate-x-2/4 -translate-y-1/2">
+
+                <div class="close absolute top-3 right-6 text-lime-600 hover:text-red-500 cursor-pointer"><i
+                        class="fas fa-times fa-2x"></i></div>
+
+                <h1 class="my-14 text-center text-3xl text-white">Thanks for Buying</h1>
+
+                <video class="rounded-2xl" src="./img/LeftCreepyHorsechestnutleafminer-mobile.mp4" loop muted
+                    autoplay></video>
+
+            </section>
+
+            <!-- section-2 -->
+            <section class="container mx-auto my-16">
+                <div>
+                    <div class="flex justify-center gap-10 text-[#282828] text-xl font-bold">
+
+                        <button type="button" class="active_category btn_category" id="btn_filter"
+                            data-id="description">Description</button>
+
+                        <button type="button" class="btn_category" id="btn_filter" data-id="add_information">Additional
+                            information</button>
+
+                        <button type="button" class="btn_category" id="btn_filter" data-id="Reviews">Reviews
+                            (10+)</button>
+
+                        <button type="button" class="btn_category" id="btn_filter" data-id="vendor_information">Vendor
+                            information</button>
+
+                        <button type="button" class="btn_category" id="btn_filter" data-id="products">More
+                            products</button>
+                    </div>
+
+                    <div class="menu_container mt-5 gap-10">
+                        <p class="text-[#676767] text-center ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+
+                        <ul class="list-disc text-[#676767] mt-5 ml-14">
+                            <li>High-Neck Style</li>
+                            <li>Drop Shoulders</li>
+                            <li>Flared Cuffs</li>
+                            <li>Asymmetrical Hem</li>
+                        </ul>
+                        <p class="text-[#676767] text-left mt-5">Consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur.</p>
+                        <p class="text-[#676767] text-left mt-5 italic">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing
+                            elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section-3 -->
+            <section>
+                <h1 class="font-bold text-4xl text-[#282828]">Related Products</h1>
+
+                <div class="flex justify-center gap-20">
+                    <div class="item_hover">
+                        <img src="./img/fruits_2.png" alt="">
+                        <div class="ico_hover text-3xl text-[#282828] flex gap-5 justify-center">
+                            <i class="fa-solid fa-heart hover:text-orange-500"></i>
+                            <i class="fa-solid fa-magnifying-glass hover:text-orange-500"></i>
+                            <i class="fa-solid fa-code-compare hover:text-orange-500"></i>
+                            <i class="fa-solid fa-bag-shopping hover:text-orange-500"></i>
+                        </div>
+                        <div class="mt-5 text-center">
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                        </div>
+
+                        <div class="text-center text-[#282828] mt-5">
+                            <h3 class="text-xl font-normal">$8.00-9.00</h3>
+                            <h1 class="text-xl font-semibold">Organic Fresh Vegetables</h1>
+                        </div>
+                    </div>
+
+                    <div class="item_hover">
+                        <img src="./img/fruits_5.png" alt="">
+                        <div class="ico_hover text-3xl text-[#282828] flex gap-5 justify-center">
+                            <i class="fa-solid fa-heart hover:text-orange-500"></i>
+                            <i class="fa-solid fa-magnifying-glass hover:text-orange-500"></i>
+                            <i class="fa-solid fa-code-compare hover:text-orange-500"></i>
+                            <i class="fa-solid fa-bag-shopping hover:text-orange-500"></i>
+                        </div>
+                        <div class="mt-5 text-center">
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                        </div>
+
+                        <div class="text-center text-[#282828] mt-5">
+                            <h3 class="text-xl font-normal">$8.00-9.00</h3>
+                            <h1 class="text-xl font-semibold">Organic Fresh Vegetables</h1>
+                        </div>
+                    </div>
+
+                    <div class="item_hover">
+                        <img src="./img/fruits_3.png" alt="">
+                        <div class="ico_hover text-3xl text-[#282828] flex gap-5 justify-center">
+                            <i class="fa-solid fa-heart hover:text-orange-500"></i>
+                            <i class="fa-solid fa-magnifying-glass hover:text-orange-500"></i>
+                            <i class="fa-solid fa-code-compare hover:text-orange-500"></i>
+                            <i class="fa-solid fa-bag-shopping hover:text-orange-500"></i>
+                        </div>
+                        <div class="mt-5 text-center">
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                        </div>
+
+                        <div class="text-center text-[#282828] mt-5">
+                            <h3 class="text-xl font-normal">$8.00-9.00</h3>
+                            <h1 class="text-xl font-semibold">Organic Fresh Vegetables</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer class="px-10 py-20 bg-[#373C33] flex gap-20">
+            <div>
+                <img src="./img/Organic logo.png" alt="">
+
+                <div class="flex items-center gap-5 mt-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="green" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    <div class="text-white">
+                        <h6 class="text-base">Call Us 24/7</h6>
+                        <h6 class="text-xl">(1800)-1088-88</h6>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-5 mt-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="green" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <div class="text-white">
+                        <h6 class="text-base">Address</h6>
+                        <h6 class="text-xl">100 Mcevoy st, alexandria
+                            <br>
+                            Nsw 2010, Australia
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h1 class="text-white text-xl font-semibold">Customer Service</h1>
+
+                <h6 class="text-white text-base font-normal mt-5">
+                    Contact us
+                    <br class="my-2">
+                    Track your order
+                    <br class="my-2">
+                    Return policy
+                    <br class="my-2">
+                    Delivery Information
+                    <br class="my-2">
+                    Help & FAQ
+                    <br class="my-2">
+                    Warranty & Repair
+                </h6>
+            </div>
+
+            <div>
+                <h1 class="text-white text-xl font-semibold">Categories</h1>
+
+                <h6 class="text-white text-base font-normal mt-5">
+                    Fruitls & Vegetables
+                    <br class="my-2">
+                    Dairy Products
+                    <br class="my-2">
+                    Package Foods
+                    <br class="my-2">
+                    Beverage
+                    <br class="my-2">
+                    Health & Wellness
+                    <br class="my-2">
+                </h6>
+            </div>
+
+            <div>
+                <h1 class="text-white text-xl font-semibold">Newsletter</h1>
+
+                <h6 class="my-5 text-white">Signup and get a voucher of worth $250.00</h6>
+                <div class="flex relative">
+                    <form action="#">
+                        <input class="h-10 px-5 rounded-lg" type="text" placeholder="Enter Your Mail">
+                    </form>
+                    <button class="bg-orange-600 absolute right-3 px-7 py-2 rounded-lg text-white">Send</button>
+                </div>
+            </div>
+
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="./app.js"></script>
+
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+
+                    }
+                }
+            }
+        </script>
+</body>
+
+</html>
